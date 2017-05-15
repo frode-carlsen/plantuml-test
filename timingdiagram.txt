@@ -4,17 +4,17 @@ robust "Far Aktivitet" as FA
 concise "Uttak" as UT
 
 @MA
-0 is 0%
-+200 is 30%
-+100 is 80%
+0 is '0%'
++200 is '30%'
++100 is '80%'
 
 @FA
-0 is 100%
-+500 is 50%
+0 is '100%'
++500 is '50%'
 
 @UT
-0 is "Mor: 100%"
-50 is "Felles: 80%"
-100 is "Far: 100%"
+0 is 'Mor: 100%'
+50 is 'Felles: 80%'
+100 is 'Far: 100%'
 
 @enduml
