@@ -14,7 +14,7 @@ concise "Uttak" as UT
 +500 is 50pct
 
 @UT
-0 is Mor: 100pct
+0 is Mor: 100pct: hello
 50 is Felles: 80pct
 100 is Far: 100pct
 
