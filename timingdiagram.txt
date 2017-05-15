@@ -1,19 +1,20 @@
 @startuml
-robust "Web Browser" as WB
-concise "Web User" as WU
+robust "Mor Aktivitet" as MA
+robust "Far Aktivitet" as FA
+concise "Uttak" as UT
 
-WB is Initializing
-WU is Absent
+@MA
+0 is 0%
++200 is 30%
++100 is 80%
 
-@WB
-0 is idle
-+200 is Processing
-+100 is Waiting
-WB@0 <-> @50 : {50 ms lag}
+@FA
+0 is 100%
++500 is 50%
 
-@WU
-0 is Waiting
-+500 is ok
-@200 <-> @+150 : {150 ms}
+@UT
+0 is "Mor: 100%"
+50 is "Felles: 80%"
+100 is "Far: 100%"
 
 @enduml
