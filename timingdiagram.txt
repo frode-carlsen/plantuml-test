@@ -7,6 +7,7 @@ concise "Uttak" as UT
 0 is 0pct
 +200 is 30pct
 +100 is 80pct
++200 is 30pct
 
 @FA
 0 is 100pct
